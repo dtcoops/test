@@ -1,0 +1,33 @@
+[
+    {
+      "id": "myruns",
+      "title": "MyRuns — Exercise Tracker",
+      "topic": "mobile",
+      "desc": "Android sensor fusion for run tracking; exports GPX and summary stats.",
+      "tags": ["Kotlin", "Compose", "Room"],
+      "thumb": "MOBILE",
+      "demo": "#",
+      "code": "#"
+    },
+    {
+      "id": "coffee",
+      "title": "Coffee Recommender",
+      "topic": "data",
+      "desc": "scikit-learn pipeline to match users to roasts with GACTT data.",
+      "tags": ["Python", "pandas", "scikit-learn"],
+      "thumb": "DATA",
+      "demo": "#",
+      "code": "#"
+    },
+    {
+      "id": "tiledrop",
+      "title": "TileDrop — Puzzle Platformer",
+      "topic": "games",
+      "desc": "Unity C# prototype with grid hazards and level scripting.",
+      "tags": ["Unity", "C#", "Prototype"],
+      "thumb": "GAME",
+      "demo": "#",
+      "code": "#"
+    }
+  ]
+  
