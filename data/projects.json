@@ -2,32 +2,29 @@
     {
       "id": "myruns",
       "title": "MyRuns — Exercise Tracker",
-      "topic": "mobile",
+      "topic": "school",
       "desc": "Android sensor fusion for run tracking; exports GPX and summary stats.",
-      "tags": ["Kotlin", "Compose", "Room"],
-      "thumb": "MOBILE",
-      "demo": "#",
-      "code": "#"
+      "tags": ["Kotlin", "Room"],
+      "thumb": "projects/myruns/imgs/myruns.png",
+      "url": "projects/myruns/myruns.html"
     },
     {
       "id": "coffee",
       "title": "Coffee Recommender",
-      "topic": "data",
+      "topic": "school",
       "desc": "scikit-learn pipeline to match users to roasts with GACTT data.",
       "tags": ["Python", "pandas", "scikit-learn"],
-      "thumb": "DATA",
-      "demo": "#",
-      "code": "#"
+      "thumb": "projects/coffee_recommender/imgs/coffee.png",
+      "url": "projects/coffee_recommender/coffeerecommender.html"
     },
     {
       "id": "tiledrop",
       "title": "TileDrop — Puzzle Platformer",
-      "topic": "games",
+      "topic": "personal",
       "desc": "Unity C# prototype with grid hazards and level scripting.",
       "tags": ["Unity", "C#", "Prototype"],
-      "thumb": "GAME",
-      "demo": "#",
-      "code": "#"
+      "thumb": "projects/tiledrop/imgs/tiledrop.png",
+      "url": "projects/tiledrop/tiledrop.html"
     }
   ]
   
