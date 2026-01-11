@@ -9,15 +9,6 @@
       "url": "projects/myruns/myruns.html"
     },
     {
-      "id": "coffee",
-      "title": "Coffee Recommender",
-      "topic": "school",
-      "desc": "scikit-learn pipeline to match users to roasts with GACTT data.",
-      "tags": ["Python", "pandas", "scikit-learn"],
-      "thumb": "projects/coffee_recommender/imgs/coffee.png",
-      "url": "projects/coffee_recommender/coffeerecommender.html"
-    },
-    {
       "id": "tiledrop",
       "title": "TileDrop — Puzzle Platformer",
       "topic": "personal",
@@ -25,6 +16,24 @@
       "tags": ["Unity", "C#", "Prototype"],
       "thumb": "projects/tiledrop/imgs/tiledrop.png",
       "url": "projects/tiledrop/tiledrop.html"
+    },
+    {
+      "id": "fileparse",
+      "title": "File Parser",
+      "topic": "school",
+      "desc": "Pything application with GUI to parse .bmp file data and compress and decompress data.",
+      "tags": ["Python", "Tkinter"],
+      "thumb": "projects/file_parser/imgs/fileparser.png",
+      "url": "projects/file_parser/fileparser.html"
+    },
+    {
+      "id": "coffee",
+      "title": "Coffee Recommender",
+      "topic": "school",
+      "desc": "scikit-learn pipeline to match users to roasts with GACTT data.",
+      "tags": ["Python", "pandas", "scikit-learn"],
+      "thumb": "projects/coffee_recommender/imgs/coffee.png",
+      "url": "projects/coffee_recommender/coffeerecommender.html"
     }
   ]
   

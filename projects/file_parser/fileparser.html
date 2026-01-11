@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/project.css">
+  <script src="../../scripts/project-gallery.js" defer></script>
+  <title>Fileparser — Daniel Cooper</title>
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brand" href="../../index.html">← Back</a>
+    </div>
+  </header>
+
+  <main class="section container project-layout">
+    
+    <aside class="project-meta">
+      <div class="meta-item">
+        <span class="meta-label">Platform</span>
+        <span class="meta-value">Desktop (Cross-platform)</span>
+      </div>
+    
+      <div class="meta-item">
+        <span class="meta-label">Language</span>
+        <span class="meta-value">Python</span>
+      </div>
+    
+      <div class="meta-item">
+        <span class="meta-label">Libraries</span>
+        <span class="meta-value">Tkinter, pillow, numpy</span>
+      </div>
+    
+      <div class="meta-item">
+        <span class="meta-label">Team</span>
+        <span class="meta-value">Solo</span>
+      </div>
+    
+      <div class="meta-item">
+        <span class="meta-label">Duration</span>
+        <span class="meta-value">2 months</span>
+      </div>
+    
+      <div class="meta-item">
+        <span class="meta-label">Completion</span>
+        <span class="meta-value">2025</span>
+      </div>
+
+      <div class="meta-item">
+        <span class="meta-label">Links</span>
+        <p> 
+          <a class="tag" href="https://github.com/dtcoops/file-parser" target="_blank" rel="noopener">GitHub</a>
+        </p>
+      </div>
+    </aside>    
+
+    <section class="project-content">
+      <h1 class="card-title">File Parser</h1>
+      
+      <figure class="figure">
+        <div class="figure-stage">
+          <img id="figure-main" src="imgs/fileparser.png" alt="" width="500" height="600">
+        </div>
+        <figcaption>
+          <div class="caption-text"></div>
+          
+          <div class="thumbs">
+            <button 
+              class="thumb active" 
+              data-src="imgs/fileparser.png"
+              data-caption="Fileparser GUI created with Tkinter.">
+              <img src="imgs/fileparser.png" alt="">
+            </button>
+
+            <button 
+              class="thumb active" 
+              data-src="imgs/mockup.png"
+              data-caption="My original design sketch before Compression sections added.">
+              <img src="imgs/mockup.png" alt="">
+            </button>
+            
+            <button 
+              class="thumb active" 
+              data-src="imgs/fileparser_compress.png"
+              data-caption="Compress Current BMP button clicked. Image is compressed into custom .cmpt365 file and data is displayed.">
+              <img src="imgs/fileparser_compress.png" alt="">
+            </button>
+
+            <button 
+              class="thumb active" 
+              data-src="imgs/fileparser_decompress.png"
+              data-caption="Browse .cmpt365 Files opens explorer. Selected file is decompressed and displayed losslessly.">
+              <img src="imgs/fileparser_decompress.png" alt="">
+            </button>
+          </div>
+          
+        </figcaption>
+      </figure>
+
+      <div style="margin-top:18px;">
+        <h2 class="section-title">Overview:</h2>
+        <p class="card-description">
+          This was a two part assignment for SFU's CMPT 365 - Multimedia Systems. We were required to parse a .bmp image to read the file metadata.
+          Then later we were tasked with implementing a lossless compression method to compress the image, display compression details, and then
+          access the compress file to decompress and show the result.
+        </p>
+      </div>
+
+      <h2 class="section-title">Goal:</h2>
+      <ul>
+        <li class="card-description">Display a .bmp image and read the file bits to parse metadata.</li>
+        <li class="card-description">Modify image by changing data - brightness, scale, color channels.</li>
+        <li class="card-description">Compress image into custom file format using Huffman encoding and display compression details.</li>
+        <li class="card-description">Decompress custom file format and display the image losslessly.</li>
+      </ul>
+    
+      <hr class="divider">
+    </section>
+
+    <div>
+    </div>
+  </main>
+</body>
+</html>
